@@ -1,0 +1,37 @@
+{
+  "name": "vova_bot",
+  "version": "1.0.0",
+  "description": "Telegram and Viber bot for company \"Все запчасти\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node viber.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Visorien/vova_bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "viber",
+    "bot",
+    "automation"
+  ],
+  "author": "Rotimi-Best",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Visorien/vova_bot/issues"
+  },
+  "homepage": "https://github.com/Visorien/vova_bot#readme",
+  "dependencies": {
+    "amocrm-js": "^1.0.6",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "libphonenumber-js": "^1.7.9",
+    "messaging-api-viber": "^0.7.11",
+    "nedb-promises": "^3.0.2",
+    "nodemon": "^1.18.10",
+    "npm-api-client-amocrm": "^0.6.3",
+    "telegram-node-bot": "^4.0.5",
+    "viber-bot": "^1.0.13"
+  }
+}
